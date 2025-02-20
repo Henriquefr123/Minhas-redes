@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+strong {
+    color: aqua;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px;
+    background-color:#007bff;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+
+.kanye {
+    padding: 20px;
+
+}

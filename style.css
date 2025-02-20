@@ -3,26 +3,26 @@
 }
 body {
     background-color: black;
-    color: white;
+    color: #F6F6F6;
 }
 
-strong {
-    color: aqua;
+.titulo-azul             {
+    color:#22d4fd ;
 }
 
 .botao {
     display: inline-block;
     padding: 10px;
-    background-color:#007bff;
+    background-color:#22D4FD;
     border-radius: 20px;
     text-decoration: none;
-    color: white;
+    color: #F6F6F6;
     text-align: center;
     font-size: 16px;
 }
 
 .botao:hover {
-    background-color: #0056b3;
+    background-color: #509cee;
 }
 
 .kanye {

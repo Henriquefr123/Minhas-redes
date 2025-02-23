@@ -17,26 +17,33 @@ body {
 }
 
 .cabecalho {
-    background-color: #111;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 24px;
-    font-weight: bold;
+    /* background-color: #ffffff; */
+    padding: 2% 0% 0% 11%;
+    
 }
 
-.rodape {
-    background-color: #22d4fd;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: auto;
-    font-size: 14px;
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
+    transition: all 0.3s ease-in-out;
+}
+
+.cabecalho__menu__link:hover {
+    transform: scale(1.4);
 }
 
 .apresentacao {
+    padding: 5%, 15%;
     flex-grow: 1;
-    margin: 2% 10% 0 10%;
+    margin: 0% 10% 2% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,9 +87,12 @@ body {
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-size: 24px;
+    padding: 15px;
 }
 
 .botao {
+    display: flex;
+    justify-content: center;
     padding: 21px;
     border: 2px, solid #22d4fd;
     border-radius: 8px;
@@ -97,6 +107,7 @@ body {
 
 .botao:hover {
     transform: scale(1.1);
+    background-color: #272727;
 }
 
 .imagens {
@@ -143,4 +154,14 @@ body {
     height: 18px;
     margin-right: 6px;
     vertical-align: middle;
+}
+
+.rodape {
+    background-color: #22d4fd;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    font-size: 14px;
+    font-weight: 400;
 }

@@ -4,7 +4,7 @@
     --cor-primaria: #443627;
     --cor-secundaria: #D8C4B6;
     --cor-terciaria: #D98324;
-    --cor-hover: #F2F6D0;
+    --cor-hover: #d8dea3;
     --cor-cabecalho: #272727
 }
 
@@ -37,7 +37,7 @@ body {
 
 .cabecalho__menu__link {
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     transition: all 0.3s ease-in-out;
@@ -68,7 +68,7 @@ body {
 .titulo {
     padding: 5px;
     margin: 0;
-    font-size: 34px;
+    font-size: 2.25rem;
     font-family: "Krona One", sans-serif;
 }
 
@@ -79,7 +79,7 @@ body {
 .paragrafo {
     padding: 5px;
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375rem;
    
 }
 
@@ -100,7 +100,7 @@ body {
 .botao__titulo {
     font-family: "Krona One", sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 15px;
 }
 
@@ -114,7 +114,7 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
 }
@@ -176,6 +176,6 @@ body {
     text-align: center;
     padding: 15px;
     margin-top: auto;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
 }
